@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>backgroun</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>welcome </h1>
+        <h2>
+            <img src="image/2.jpg" alt="Happy Birthday Gift" style="width: 100%; max-width: 200px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+        </h2>
+        <input type="text" id="nameInput" placeholder="Masukin Nama" required>
+        <div class="button-container">
+            <button id="birthdayGreeting">Tekan</button>
+            <button id="changeColorButton">ganti warna</button>
+        </div>
+        <div id="greetingMessage"></div>
+
+        <button id="showPlaylistButton">🎶 Tampilkan Playlist</button>
+
+        <!-- Playlist -->
+        <div id="playlistContainer" style="display: none; margin-top: 20px;">
+            <h3>Playlist Lagu </h3>                      
+            <audio controls style="margin: 5px; width: 90%;">
+                <source src="/audio/22.mp3" type="audio/mpeg">
+                Browsermu tidak mendukung audio tag.
+            </audio>
+            <audio controls style="margin: 5px; width: 90%;">
+                <source src="/audio/1.mp3" type="audio/mpeg">
+                Browsermu tidak mendukung audio tag.
+            </audio>
+            <audio controls style="margin: 5px; width: 90%;">
+                <source src="/audio/2.mp3" type="audio/mpeg">
+                Browsermu tidak mendukung audio tag.
+            </audio>
+            <audio controls style="margin: 5px; width: 90%;">
+                <source src="/audio/3.mp3" type="audio/mpeg">
+                Browsermu tidak mendukung audio tag.
+            </audio>
+            <audio controls style="margin: 5px; width: 90%;">
+                <source src="/audio/4.mp3" type="audio/mpeg">
+                Browsermu tidak mendukung audio tag.
+            </audio>
+
+        </div>
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

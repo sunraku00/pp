@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a6edff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    overflow: auto;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffb4e1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 203, 246, 0.796);
+    max-width: 100%; /* Menyesuaikan agar tidak kepotong di layar kecil */
+    width: 500px; /* Batas lebar konten */
+    overflow: hidden; /* Menghindari konten keluar dari container */
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 205px; /* Batas lebar input agar tidak melebar */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #7b9af8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #5f7af8;
+}
